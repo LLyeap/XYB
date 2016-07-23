@@ -8,10 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		5C497F69B15B807CB0EEF8D6 /* libPods-XYB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC81BD48959B3A222103CDC /* libPods-XYB.a */; };
+		A475A53B1D439E0100DAFC37 /* XYBIndexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A475A53A1D439E0100DAFC37 /* XYBIndexVC.m */; };
+		A475A53E1D439E2700DAFC37 /* XYBSignVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A475A53D1D439E2700DAFC37 /* XYBSignVC.m */; };
+		A475A5411D439E3B00DAFC37 /* XYBNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A475A5401D439E3B00DAFC37 /* XYBNewVC.m */; };
+		A475A5441D439E7400DAFC37 /* XYBChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A475A5431D439E7400DAFC37 /* XYBChatVC.m */; };
+		A475A5471D439E8200DAFC37 /* XYBMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A475A5461D439E8200DAFC37 /* XYBMeVC.m */; };
+		A49318311D4382D700DB8D03 /* XYBMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49318301D4382D700DB8D03 /* XYBMain.storyboard */; };
+		A49318341D4383A000DB8D03 /* XYBTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A49318331D4383A000DB8D03 /* XYBTabBarVC.m */; };
 		A4EDF1681D4342BF003FA655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDF1671D4342BF003FA655 /* main.m */; };
 		A4EDF16B1D4342BF003FA655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDF16A1D4342BF003FA655 /* AppDelegate.m */; };
-		A4EDF16E1D4342BF003FA655 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A4EDF16D1D4342BF003FA655 /* ViewController.mm */; };
-		A4EDF1711D4342BF003FA655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EDF16F1D4342BF003FA655 /* Main.storyboard */; };
 		A4EDF1731D4342BF003FA655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EDF1721D4342BF003FA655 /* Assets.xcassets */; };
 		A4EDF1761D4342BF003FA655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EDF1741D4342BF003FA655 /* LaunchScreen.storyboard */; };
 		A4EDF1811D4342BF003FA655 /* XYBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDF1801D4342BF003FA655 /* XYBTests.m */; };
@@ -87,13 +92,23 @@
 
 /* Begin PBXFileReference section */
 		3B7E491D2D43BA4FEFABD4D4 /* Pods-XYB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYB/Pods-XYB.debug.xcconfig"; sourceTree = "<group>"; };
+		A475A5391D439E0100DAFC37 /* XYBIndexVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBIndexVC.h; sourceTree = "<group>"; };
+		A475A53A1D439E0100DAFC37 /* XYBIndexVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBIndexVC.m; sourceTree = "<group>"; };
+		A475A53C1D439E2700DAFC37 /* XYBSignVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBSignVC.h; sourceTree = "<group>"; };
+		A475A53D1D439E2700DAFC37 /* XYBSignVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBSignVC.m; sourceTree = "<group>"; };
+		A475A53F1D439E3B00DAFC37 /* XYBNewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBNewVC.h; sourceTree = "<group>"; };
+		A475A5401D439E3B00DAFC37 /* XYBNewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBNewVC.m; sourceTree = "<group>"; };
+		A475A5421D439E7400DAFC37 /* XYBChatVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBChatVC.h; sourceTree = "<group>"; };
+		A475A5431D439E7400DAFC37 /* XYBChatVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBChatVC.m; sourceTree = "<group>"; };
+		A475A5451D439E8200DAFC37 /* XYBMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBMeVC.h; sourceTree = "<group>"; };
+		A475A5461D439E8200DAFC37 /* XYBMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBMeVC.m; sourceTree = "<group>"; };
+		A49318301D4382D700DB8D03 /* XYBMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XYBMain.storyboard; sourceTree = "<group>"; };
+		A49318321D4383A000DB8D03 /* XYBTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBTabBarVC.h; sourceTree = "<group>"; };
+		A49318331D4383A000DB8D03 /* XYBTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBTabBarVC.m; sourceTree = "<group>"; };
 		A4EDF1631D4342BF003FA655 /* XYB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EDF1671D4342BF003FA655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4EDF1691D4342BF003FA655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4EDF16A1D4342BF003FA655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4EDF16C1D4342BF003FA655 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A4EDF16D1D4342BF003FA655 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
-		A4EDF1701D4342BF003FA655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4EDF1721D4342BF003FA655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		A4EDF1751D4342BF003FA655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4EDF1771D4342BF003FA655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -412,8 +427,8 @@
 		A4EDF1A21D4344D3003FA655 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A4EDF16C1D4342BF003FA655 /* ViewController.h */,
-				A4EDF16D1D4342BF003FA655 /* ViewController.mm */,
+				A49318321D4383A000DB8D03 /* XYBTabBarVC.h */,
+				A49318331D4383A000DB8D03 /* XYBTabBarVC.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -421,6 +436,8 @@
 		A4EDF1A31D4344EA003FA655 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A475A5391D439E0100DAFC37 /* XYBIndexVC.h */,
+				A475A53A1D439E0100DAFC37 /* XYBIndexVC.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -428,6 +445,8 @@
 		A4EDF1A41D4344EF003FA655 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A475A53C1D439E2700DAFC37 /* XYBSignVC.h */,
+				A475A53D1D439E2700DAFC37 /* XYBSignVC.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -435,6 +454,8 @@
 		A4EDF1A51D4344F4003FA655 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A475A53F1D439E3B00DAFC37 /* XYBNewVC.h */,
+				A475A5401D439E3B00DAFC37 /* XYBNewVC.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -442,6 +463,8 @@
 		A4EDF1A61D4344FA003FA655 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A475A5421D439E7400DAFC37 /* XYBChatVC.h */,
+				A475A5431D439E7400DAFC37 /* XYBChatVC.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -449,6 +472,8 @@
 		A4EDF1A71D4344FF003FA655 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A475A5451D439E8200DAFC37 /* XYBMeVC.h */,
+				A475A5461D439E8200DAFC37 /* XYBMeVC.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -456,7 +481,7 @@
 		A4EDF1A81D434506003FA655 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A4EDF16F1D4342BF003FA655 /* Main.storyboard */,
+				A49318301D4382D700DB8D03 /* XYBMain.storyboard */,
 				A4EDF1741D4342BF003FA655 /* LaunchScreen.storyboard */,
 			);
 			name = Views;
@@ -802,6 +827,7 @@
 		A4EDF15B1D4342BF003FA655 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XYB;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "李雷";
 				TargetAttributes = {
@@ -846,8 +872,8 @@
 				A4EDF1761D4342BF003FA655 /* LaunchScreen.storyboard in Resources */,
 				A4EDF21B1D434F9E003FA655 /* MBProgressHUD.bundle in Resources */,
 				A4EDF1731D4342BF003FA655 /* Assets.xcassets in Resources */,
+				A49318311D4382D700DB8D03 /* XYBMain.storyboard in Resources */,
 				A4EDF2581D434FA7003FA655 /* MJRefresh.bundle in Resources */,
-				A4EDF1711D4342BF003FA655 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -930,7 +956,6 @@
 				A4EDF24E1D434FA7003FA655 /* MJRefreshHeader.m in Sources */,
 				A4EDF1E61D43499B003FA655 /* NSObject+runtime.m in Sources */,
 				A4EDF1E21D43499B003FA655 /* FMDTSchema.m in Sources */,
-				A4EDF16E1D4342BF003FA655 /* ViewController.mm in Sources */,
 				A4EDF1D91D43499B003FA655 /* FMDatabasePool.m in Sources */,
 				A4EDF21A1D434F9E003FA655 /* MBProgressHUD+HM.m in Sources */,
 				A4EDF25C1D434FA7003FA655 /* UIView+MJExtension.m in Sources */,
@@ -946,14 +971,18 @@
 				A4EDF2511D434FA7003FA655 /* MJRefreshAutoStateFooter.m in Sources */,
 				A4EDF2591D434FA7003FA655 /* MJRefreshConst.m in Sources */,
 				A4EDF1E31D43499B003FA655 /* FMDTSelectCommand.m in Sources */,
+				A49318341D4383A000DB8D03 /* XYBTabBarVC.m in Sources */,
 				A4EDF2541D434FA7003FA655 /* MJRefreshBackStateFooter.m in Sources */,
 				A4EDF1E51D43499B003FA655 /* FMDTUpdateObjectCommand.m in Sources */,
+				A475A5441D439E7400DAFC37 /* XYBChatVC.m in Sources */,
 				A4EDF1681D4342BF003FA655 /* main.m in Sources */,
 				A4EDF25A1D434FA7003FA655 /* UIScrollView+MJExtension.m in Sources */,
 				A4EDF25B1D434FA7003FA655 /* UIScrollView+MJRefresh.m in Sources */,
 				A4EDF27A1D4352FD003FA655 /* AFURLRequestSerialization.m in Sources */,
 				A4EDF1DC1D43499B003FA655 /* README.markdown in Sources */,
+				A475A53B1D439E0100DAFC37 /* XYBIndexVC.m in Sources */,
 				A4EDF24F1D434FA7003FA655 /* MJRefreshAutoGifFooter.m in Sources */,
+				A475A5411D439E3B00DAFC37 /* XYBNewVC.m in Sources */,
 				A4EDF2751D4352FD003FA655 /* AFHTTPRequestOperationManager.m in Sources */,
 				A4EDF1E11D43499B003FA655 /* FMDTObject.m in Sources */,
 				A4EDF24B1D434FA7003FA655 /* MJRefreshBackFooter.m in Sources */,
@@ -965,7 +994,9 @@
 				A4EDF24D1D434FA7003FA655 /* MJRefreshFooter.m in Sources */,
 				A4EDF1DE1D43499B003FA655 /* FMDTDeleteCommand.m in Sources */,
 				A4EDF2761D4352FD003FA655 /* AFHTTPSessionManager.m in Sources */,
+				A475A5471D439E8200DAFC37 /* XYBMeVC.m in Sources */,
 				A4EDF27D1D4352FD003FA655 /* NetRequest.m in Sources */,
+				A475A53E1D439E2700DAFC37 /* XYBSignVC.m in Sources */,
 				A4EDF24A1D434FA7003FA655 /* MJRefreshAutoFooter.m in Sources */,
 				A4EDF2771D4352FD003FA655 /* AFNetworkReachabilityManager.m in Sources */,
 				A4EDF27B1D4352FD003FA655 /* AFURLResponseSerialization.m in Sources */,
@@ -1005,15 +1036,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A4EDF16F1D4342BF003FA655 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4EDF1701D4342BF003FA655 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		A4EDF1741D4342BF003FA655 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

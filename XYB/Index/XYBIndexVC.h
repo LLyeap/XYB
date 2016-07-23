@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XYBIndexVC.h
 //  XYB
 //
 //  Created by lilei on 16/7/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XYBIndexVC : UIViewController
 
 @end
-
